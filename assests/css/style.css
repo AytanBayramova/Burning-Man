@@ -1,0 +1,115 @@
+.header{
+    background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%), url(/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 57px 213px 0;
+    background-attachment:fixed ;
+}
+
+.nav-link, .nav a, .center h1, .center h3{
+    color: white !important;
+    text-decoration: none;
+}
+
+/*dusunulmemis ko*/
+
+.nav-link :hover{
+color: #fff;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+
+
+.offcanvas-menu{
+    background-color: rgba(0,0,0,.8);
+    height: 100vh; 
+    position: fixed; 
+     top: 0;
+     left: 0;
+     width:0;
+     z-index: 2;
+     overflow-x: hidden;
+     transition: width 1.2s ease;
+}
+
+.menimshexsiclassim{
+    margin-left: 250px;
+    transition: margin-left 1.2 ease;
+    }
+    
+
+
+.offcanvas-menu .nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.offcanvas-menu .nav-links a{
+    font-size: 32px;
+    color: #aaa;
+    text-decoration: none;
+    transition: color .8s ease;
+}
+
+.offcanvas-menu .nav-links a:hover{
+    color: #fff;
+}
+
+.offcanvas-menu .fa-xmark{
+    color: #aaa;
+    font-size: 44px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+    transition: color 1s ease ;
+}
+
+ .fa-xmark:hover{
+color: #fff;
+}
+  
+.center{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+.center button{
+    width: 236px;
+    max-width: 236px;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #fff;
+    color: #ffff;
+}
+
+body{
+overflow-x: hidden;
+}
+
+.article{
+    padding: 113px 215px 240px;
+}
+@media(max-width:768px){
+    .header{
+        padding: 30px;
+    }
+
+    .article{
+        padding: 50px;
+    }
+}
+
